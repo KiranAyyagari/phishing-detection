@@ -24,6 +24,14 @@ Install all the packages required for the project
 
 `pip intall -r requirements.txt`
 
+Create .env file and add below configuration
+
+    export OPEN_PAGE_RANK_API_KEY=<APIKEY> 
+    export OPEN_PAGE_RANK_URL=https://openpagerank.com/api/v1.0/getPageRank?domains%5B0%5D=
+    export PHISHTANK_URL=http://checkurl.phishtank.com/checkurl/
+
+Get your own API key from Page Rank website
+
 Running the app in local environment
 
 `python app.py`
